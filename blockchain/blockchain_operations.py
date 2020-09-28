@@ -45,17 +45,3 @@ class block:
 
 	def __repr__(self):
 		return json.dumps(self.info, indent=2)
-
-# chain = Chain()
-# chain.push(block())
-# # print(chain)
-# block1 = block()
-# block1.add_info("hello world")
-# new_hash = block1.hash()
-# chain.push(block1)
-# print(block1)
-# block2 = block(previous_hash=new_hash)
-# block2.add_info("My First Block")
-# new_hash = block2.hash()
-# chain.push(block2)
-# print(chain[-1])
